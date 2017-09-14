@@ -1,0 +1,732 @@
+<!DOCTYBE html> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- IE Compatibility Meta -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Mobile "Responsive" Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Design With Bootstrap</title>
+        <link rel="stylesheet" href="Css/bootstrap.css">
+        <link rel="stylesheet" href="Css/font-awesome.min.css">
+        <link rel="stylesheet" href="Css/MyStyle.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="Css/media.css">
+        <link rel="stylesheet" href="Css/default-theme.css">
+        
+        <!-- [if lt IE 9] >
+        <script src="Js/html5shiv.min.js"></script>
+        <script src="Js/respond.min.js"></script>
+        <![endif]-->
+        
+    </head>
+    <body>
+                                    <!-- Start Section Tool box --> 
+        
+        <section class="option-box">
+            <i class="fa fa-gear fa-3x gear-check"></i>
+            <div class="color-option">
+                <h4>Change Color</h4>
+                <ul class="list-unstyled">
+                    <li data-value="css/default-theme.css"></li>
+                    <li data-value="css/purple-theme.css"></li>
+                    <li data-value="css/blue-theme.css"></li>
+                    <li data-value="css/yellow-theme.css"></li>
+                </ul>
+            </div>
+        </section>
+                                    <!-- End Section Tool box--> 
+        
+                                <!-- Start First Carousel--> 
+        
+        <div id="MySlider" class="carousel slide hidden-xs" data-ride="carousel">
+
+            <ol class="carousel-indicators hidden-xs">
+            <li data-target="#MySlider" data-slide-to="0" class="active"></li>
+            <li data-target="#MySlider" data-slide-to="1"></li>
+            <li data-target="#MySlider" data-slide-to="2"></li>
+            <li data-target="#MySlider" data-slide-to="3"></li>
+            </ol>
+
+          <div class="carousel-inner" role="listbox">
+              
+            <div class="item active">
+              <img src="Images/programacion-en-sitios-web.jpg" alt="alone pic">
+              <div class="carousel-caption hidden-xs">
+                <h1>Programming</h1>
+                <p class="lead para">For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription of the nutrient For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription of the nutrient.</p>  
+              </div>
+            </div>
+            <div class="item">
+              <img src="Images/Project-LMAA.jpg" alt="balones pic">
+              <div class="carousel-caption hidden-xs">
+                <h1>Web Design</h1>
+                <p class="lead para">For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription of the nutrient For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription of the nutrient.</p>
+              </div>
+            </div>
+              <div class="item">
+                <img src="Images/programadores-web-la-actitud-frente-a-los-desafios.jpg" alt="theSun pic">
+                <div class="carousel-caption hidden-xs">
+                <h1>Desktop</h1>
+                <p class="lead para">For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription of the nutrient For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription of the nutrient.</p>
+                </div>
+               </div>
+              <div class="item">
+                <img src="Images/Project-RICS.jpg" alt="bird pic">
+                <div class="carousel-caption hidden-xs">
+                <h1>Web Hosting</h1>
+                <p class="lead para">For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription of the nutrient For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription of the nutrient.</p>
+                </div>
+              </div>
+          </div>
+
+                                        <!-- Controls -->
+            
+          <a class="left carousel-control" href="#MySlider" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+            
+          <a class="right carousel-control" href="#MySlider" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+                                <!-- End First Carousel--> 
+                                    
+                                    <!--Start Navbar -->
+        
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            
+            <div class="navbar-header">
+                
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+             
+                <a class="navbar-brand" href="#">Osama 's <span>Blog</span></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              
+                <ul class="nav navbar-nav navbar-right">
+                    
+                <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+                    
+                <li><a href="#">About</a></li>
+                <li><a href="#">Company</a></li>    
+                    
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Programming</a></li>
+                    <li><a href="#"> Web Design</a></li>
+                    <li><a href="#">Desktop</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Web Hosting</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Map</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+                
+               <!--<form class="navbar-form navbar-left">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+                
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Another Link</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </li>
+              </ul> -->
+                
+            </div><!-- /.navbar-collapse -->
+              
+          </div><!-- /.container-fluid -->
+        
+        </nav>
+        
+                                    <!--End Navbar-->    
+        
+                                    <!--Start Section About-->
+        
+        <section class="about text-center">
+            <div class="container">
+                <h1>Meet our new Template with <span>Osama's </span>Blog</h1>
+                <p class="lead">For years, Vitamin B3 was promoted to treat everything from Alzheimer's to <strong>Bootstrap</strong> 3.2.0</p>
+            </div>
+        </section>
+                                    <!--End Section About-->
+        
+                                    <!--Start Image With Paragraph --> 
+        
+        <div class="container">
+            <div class="row">
+                                        
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12">
+                            <img class="img-responsive center-block" src="Images/the%20girl.jpg" alt="girl">
+                        </div>
+                        <div class="col-md-9 col-xs-12">
+                            <h1 class="wonder">This is a wonderful photo</h1>
+                            <p class="lead">For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription of the nutrient.
+                                A large 2014 study of more than 25,000 people with heart disease found that putting people on long-acting doses of Vitamin B3 to raise their levels of 'good', or HDL, cholesterol didn't reduce the incidence of heart attacks, strokes, or deaths.
+                                Plus, people in the study who took the B3 supplements were more likely than those taking a placebo to develop infections, liver problems, and internal bleeding.</p>
+                        </div>
+                    </div>
+                </div>
+                                        <!--End Image With Paragraph -->
+                
+                                            <!--Start Products -->
+                                                
+                <div class="col-lg-4 col-md-6">
+                    <div class="product">Product #1</div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="product">Product #2</div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="product">Product #3</div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="product">Product #4</div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="product">Product #5</div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="product">Product #6</div>
+                </div>
+                 
+                                        <!--End Products --> 
+              
+            </div>
+        </div>
+        
+                                    <!--Start Section Features-->  
+        
+        <section class="features text-center">
+            <div class="container">
+                <h1>Our Features</h1>
+                <div class="row">
+                    
+                    <div class="col-lg-3 col-md-6 ">
+                        <div class="feat">
+                            <div class="icon">
+                                <span class="glyphicon glyphicon-ok"></span>
+                                <h4>100% Responsive</h4>
+                            </div>    
+                            <p>For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription. </p>
+                        </div>
+                    </div>
+                    
+                         <div class="col-lg-3 col-md-6 ">
+                        <div class="feat">
+                            <div class="icon">
+                                <span class="glyphicon glyphicon-thumbs-up"></span>
+                                <h4>Retina Ready</h4>
+                            </div>    
+                            <p>For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription. </p>
+                        </div>
+                    </div>
+                    
+                         <div class="col-lg-3 col-md-6 ">
+                        <div class="feat">
+                            <div class="icon">
+                                <span class="glyphicon glyphicon-eye-open"></span>
+                                <h4>Awesome Display</h4>
+                            </div>
+                            <p>For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription. </p>
+                        </div>
+                    </div>
+                    
+                         <div class="col-lg-3 col-md-6 ">
+                        <div class="feat">
+                            <div class="icon">
+                                <span class="glyphicon glyphicon-pencil"></span>
+                                <h4>Well Documented</h4>
+                            </div>   
+                            <p>For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription. </p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </section>                                
+        
+                                    <!--Start Section Testimonials-->
+    
+        <section class="testimonials text-center">
+            <div class="container">
+            <h1>What Our Clients Say</h1>
+            
+                                <!--start Testimonials Carousel-->
+        
+            <div id="Car-testi" class="carousel slide" data-ride="carousel">
+
+              <div class="carousel-inner" role="listbox">
+
+                <div class="item active">
+                    <p class="lead para">For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription of the nutrient For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription of the nutrient.</p>
+                    <span>Osama Eisa</span>
+                </div>
+                <div class="item">
+                    <p class="lead para">For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription of the nutrient For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription of the nutrient.</p>
+                    <span>Ahmed Mostafa</span>
+                </div>
+                  <div class="item">
+                    <p class="lead para">For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription of the nutrient For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription of the nutrient.</p>
+                    <span>Mohamed Meslhy</span>
+                   </div>
+                  <div class="item">
+                    <p class="lead para">For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription of the nutrient For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease. But recent studies have called for an end to the over-prescription of the nutrient.</p>
+                    <span>Baraa Elsappah</span>  
+                  </div>
+                  
+                  <ol class="carousel-indicators">
+                    <li data-target="#Car-testi" data-slide-to="0" class="active">
+                    <img src="Images/vector1.jpg" alt="vector1">    
+                    </li>
+                    <li data-target="#Car-testi" data-slide-to="1">
+                    <img src="Images/vector2.jpg" alt="vector2">    
+                    </li>
+                    <li data-target="#Car-testi" data-slide-to="2">
+                    <img src="Images/vector3.jpg" alt="vector3">    
+                    </li>
+                    <li data-target="#Car-testi" data-slide-to="3">
+                    <img src="Images/vector4.jpg" alt="vector4">    
+                    </li>
+                </ol>
+              </div>
+                
+                                    <!-- End Testimonials Carousel-->
+            </div>
+        </section>    
+        
+                                    <!--End Section Testimonials-->
+            
+            
+                                    <!--Start Section Price Table-->
+        <section class="priceTable text-center">
+            <div class="container">    
+                <h1>Our Amazing Prices</h1>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="priceBox">
+                            <h3 class="text-primary">Hosting</h3>
+                            <p class="center-block">$39.95</p>
+                            <ul class="list-unstyled">
+                                <li>Space: 30GB</li>
+                                <li>Emails: 20</li>
+                                <li>IPS: 2IP</li>
+                                <li>Database: 10</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="priceBox">
+                            <h3 class="text-success">Vps</h3>
+                            <p class="center-block">$49.90</p>
+                            <ul class="list-unstyled">
+                                <li>Space: 40GB</li>
+                                <li>Emails: 30</li>
+                                <li>IPS: 3IP</li>
+                                <li>Database: 20</li>
+                            </ul>
+                            <a href="#" class="btn btn-success">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="priceBox">
+                            <h3 class="text-info">Dedicated</h3>
+                            <p class="center-block">$59.95</p>
+                            <ul class="list-unstyled">
+                                <li>Space: 50GB</li>
+                                <li>Emails: 40</li>
+                                <li>IPS: 4IP</li>
+                                <li>Database: 30</li>
+                            </ul>
+                            <a href="#" class="btn btn-info">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="priceBox">
+                            <h3 class="text-danger">Cloud</h3>
+                            <p class="center-block">$69.90</p>
+                            <ul class="list-unstyled">
+                                <li>Space: 70GB</li>
+                                <li>Emails: 60</li>
+                                <li>IPS: 5IP</li>
+                                <li>Database: 60</li>
+                            </ul>
+                            <a href="#" class="btn btn-danger">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+            
+                                    <!--End Section Price Table-->
+                            
+                                    <!--Start Section Our Team -->
+        <section class="ourTeam text-center">
+            <div class="team">
+                <div class="container">
+                    <h1>Meet Our Awesome Team</h1>
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6 ">
+                            <div class="person">
+                                <img class="img-circle" src="Images/man&baby.jpg" alt="man&baby">
+                                <h3>Osama Eisa</h3>
+                                <p>For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease</p>
+                                <i class="fa fa-google-plus fa-lg"></i>
+                                <i class="fa fa-facebook fa-lg"></i>
+                                <i class="fa fa-twitter fa-lg"></i>
+                                <i class="fa fa-youtube fa-lg"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 ">
+                            <div class="person">
+                                <img class="img-circle" src="Images/rose&girl.jpg" alt="girl33">
+                                <h3>Amany Hessen</h3>
+                                <p>For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease</p>
+                                <i class="fa fa-google-plus fa-lg"></i>
+                                <i class="fa fa-facebook fa-lg"></i>
+                                <i class="fa fa-twitter fa-lg"></i>
+                                <i class="fa fa-youtube fa-lg"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 ">
+                            <div class="person">
+                                <img class="img-circle" src="Images/boy&girl.jpg" alt="man&woman">
+                                <h3>Nice Children</h3>
+                                <p>For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease</p>
+                                <i class="fa fa-google-plus fa-lg"></i>
+                                <i class="fa fa-facebook fa-lg"></i>
+                                <i class="fa fa-twitter fa-lg"></i>
+                                <i class="fa fa-youtube fa-lg"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person">
+                                <img class="img-circle" src="Images/mummy.jpg" alt="girl11">
+                                <h3>Dead Man</h3>
+                                <p>For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease</p>
+                                <i class="fa fa-google-plus fa-lg"></i>
+                                <i class="fa fa-facebook fa-lg"></i>
+                                <i class="fa fa-twitter fa-lg"></i>
+                                <i class="fa fa-youtube fa-lg"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div>    
+        </section>   
+                
+                                    <!--End Section Our Team -->
+                
+                                    <!--Start Section Subscribe-->
+            
+        <section class="subscribe text-center">
+            <div class="container">
+                <h1>Keep In Touch</h1>
+                <p class="lead">For years, Vitamin B3 was promoted to treat everything</p>
+                <form class="form-inline">
+                    <input class="form-control input-lg" type="text" placeholder="Enter ur email">
+                    <button class="btn btn-danger btn-lg"><i class="fa fa-edit fa-lg"></i>Subscribe</button> 
+                </form>
+            </div>
+        </section>
+                                    <!--End Section Subscribe -->
+            
+                                    <!--Start Section Statistics -->
+            
+        <section class="states text-center">
+            <div class="data">
+                <div class="container">
+                    <h1>Our Main Statistics</h1>
+                    <div class="row">
+                        
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="cont">
+                                <i class="fa fa-users fa-5x"></i>
+                                <p>9,500</p>
+                                <span>Satisfied Users</span>
+                            </div>    
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="cont">
+                                <i class="fa fa-comments fa-5x"></i>
+                                <p>25,700</p>
+                                <span>Posted Comments</span>
+                            </div>    
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="cont">
+                                <i class="fa fa-suitcase fa-5x"></i>
+                                <p>3,200</p>
+                                <span>Projects Done</span>
+                            </div>    
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="cont">
+                                <i class="fa fa-support fa-5x"></i>
+                                <p>95,300</p>
+                                <span>Tickets Archieved</span>
+                            </div>    
+                        </div>
+                        
+                    </div>    
+                </div>
+            </div>
+        </section>        
+            
+                                    <!--End Section Statistics -->
+            
+                                    <!-- Start Section Skills-->
+        <section class="skills">
+            <div class="container">
+                <h1 class="text-center">Our Skills</h1>
+                <div class="row">
+                    <!-- Progress Skills -->
+                    <div class="col-md-5">
+                        <div class="skills-progress">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success " role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                    Html5/Css3
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-danger " role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width:88%">
+                                    PHP/MySQL
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                                    Js/jQuery
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info " role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100" style="width:93%">
+                                    Wordpress
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Info -->
+                    <div class="col-md-6 col-md-offset-1">
+                        <div class="skills-info">
+                            <h3>About Our Team</h3>
+                            <p class="lead">For years, Vitamin B3 was promoted to treat everything from Alzheimer's to heart disease was promoted to treat everything from Alzheimer's to heart disease was promoted to treat everything from Alzheimer's to heart disease.</p>
+                            <button type="button" class="btn btn-primary">Contact With A Professional</button>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </section>    
+            
+                                    <!-- End Section Skills--> 
+            
+                                    <!-- Start Section Contact us-->
+        <section class="contact-us text-center">
+            <div class="fields">
+                <div class="container">
+                    <div class="row">
+                        <i class="fa fa-headphones fa-5x"></i>
+                        <h1>Feel Free To Contact us</h1>
+                        <p class="lead">You Can Contact Us Freely At Anytime</p>
+                    
+                                            <!-- Start Form -->
+                        <form role="form">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                   <input type="text" class="form-control input-lg" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                   <input type="text" class="form-control input-lg" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                   <input type="text" class="form-control input-lg" placeholder="Phone Number">
+                                </div>
+                            </div>        
+                        </form>
+                        <div class="col-md-6">
+                           <div class="form-group">
+                             <textarea class="form-control input-lg" placeholder="Your Message"></textarea>
+                             <button type="button" class="btn btn-danger btn-lg btn-block">Contact us</button>  
+                            </div>    
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>    
+            
+                                    <!-- End Section Contact us--> 
+            
+                                    <!-- Start Section Our Clients -->  
+        <section class="clients">
+            <div class="container">
+                <div class="row">
+                    <ul class="list-unstyled">
+                        <li class="col-md-2 col-xs-4">
+                          <img class="img-responsive center-block" src="Images/egypt.png" alt="egypt">
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                          <img class="img-responsive center-block" src="Images/germany.png" alt="germany">
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                          <img class="img-responsive center-block" src="Images/brazil.png" alt="brazil">
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                          <img class="img-responsive center-block" src="Images/canada.png" alt="canada">
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                          <img class="img-responsive center-block" src="Images/mexico.png" alt="mexico">
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                          <img class="img-responsive center-block" src="Images/france.png" alt="france">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>    
+            
+                                    <!-- End Section Our Clients -->   
+            
+                                    <!-- Start Section Footer -->
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <h3>SiteMap</h3>
+                        <ul class="list-unstyled three-col">
+                           <li>Home</li>
+                           <li>About</li>
+                           <li>Company</li>
+                           <li>Code</li>
+                           <li>Design</li>
+                           <li>Host</li>
+                           <li>Solutions</li>
+                           <li>Sitemap</li>
+                           <li>Contact</li>
+                        </ul>
+                        <ul class="list-unstyled social-list">
+                            <li><img src="Images/1480043024_facebook.png" alt="facebook"/></li>
+                            <li><img src="Images/1480043011_twitter2.png" alt="twitter"/></li>
+                            <li><img src="Images/1480042972_youtube.png" alt="youtube"/></li>
+                            <li><img src="Images/1480042987_linkedin.png" alt="linkedin"/></li>
+                            <li><img src="Images/1480042999_google.png" alt="Gmail"/></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3>Latest Articles</h3> 
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="" alt="">
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    Programming
+                                </h4>
+                                This is some text about programming describe the media of Bootstrap
+                            </div>
+                        </div>
+                        
+                         <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="" alt="">
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    Coding
+                                </h4>
+                                This is some text about Coding describe the media of Bootstrap
+                            </div>
+                        </div>
+                        
+                         <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="" alt="">
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    Web Design
+                                </h4>
+                                This is some text about Web Design describe the media of Bootstrap
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Our Awesome Work</h3>
+                        <img class="img-thumbnail" src="" alt="" /> 
+                        <img class="img-thumbnail" src="" alt="" />
+                        <img class="img-thumbnail" src="" alt="" />
+                        <img class="img-thumbnail" src="" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="copyright text-center"> 
+                Copyright &copy; 2016 <span>Osama Eisa</span> .Inc
+            </div>
+        </section>                            
+            
+                                    <!-- End Section Footer -->    
+            
+                                    <!-- Start Section Loading -->
+            <section class="loading-overlay text-center">
+                <div>
+                    <h1>Loading<span>...</span></h1>
+                </div>
+            </section>
+            
+<!--
+        <section class="loading-overlay">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </section>    
+-->
+                                    <!-- End Section Loading -->
+            
+            
+        <script src="Js/jquery-1.11.3.min.js"></script>
+        <script src="Js/bootstrap.min.js"></script>
+        <script src="Js/plugins.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
